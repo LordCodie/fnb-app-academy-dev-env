@@ -7,5 +7,5 @@ username = f"{first_name[0].lower() + last_name.lower()}"
 print(f"Full Name: {(first_name + " " + last_name).title()}")
 
 print(f"Number of characters in bio: {len(bio_message)}")
-
+ 
 print(f"username {username}:\n {bio_message.strip().replace("I am", "I'm")}")
